@@ -4,8 +4,8 @@ const postSchema = new Schema(
   {
     title: { type: String, required: true },
     author: { type: String, required: true },
-    contents: String,
-    tags: { type: [String], required: true },
+    contents: { type: String, required: true },
+    tags: [String],
   },
   { timestamps: true },
 )

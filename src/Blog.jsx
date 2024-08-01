@@ -12,7 +12,7 @@ function Blog() {
   return (
     <div>
       {posts.map((post) => (
-        <div key={post._id}> ttitle: {post.title} </div>
+        <div key={post._id}> title: {post.title} </div>
       ))}
     </div>
   )
